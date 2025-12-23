@@ -1,16 +1,58 @@
-## Hi there 👋
+**Data Science student and aspiring Data Analyst** working with real datasets and turning them into clear insights and dashboards.
 
-<!--
-**nikitasharma1203/nikitasharma1203** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Focussed on **cleaning messy data, exploring patterns, writing SQL queries, and presenting results** in a way that’s easy to understand and actually useful.
 
-Here are some ideas to get you started:
+(Yes, I’m also a writer and a trained Bharatanatyam dancer: not strictly required for SQL joins, but surprisingly helpful for storytelling and discipline.)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## Working with
+- **Python & R** for data wrangling and EDA 
+- **SQL / PostgreSQL** 
+- **Matplotlib, Power BI** for visualizations  
+- **Streamlit** for building interactive dashboards  
+- **Machine learning** when it adds value to the analysis  
+
+---
+
+## Projects
+
+### Customer Purchase Analysis & Dashboard
+A reusable Streamlit app that automates data cleaning and exploratory data analysis, and helps derive customer behavior insights.  
+🔗 https://github.com/nikitasharma1203/customer_purchase_analysis_and_dashboard
+
+---
+
+### Employee Productivity Optimization Dashboard
+A dashboard-focused analysis of workforce productivity, task patterns, and performance metrics.  
+🔗 https://github.com/nikitasharma1203/employee_productivity_optimization-dashboard
+
+---
+
+### Logistics Database Management System
+An end-to-end logistics database built with PostgreSQL, supported by SQL analytics and a Streamlit interface.  
+🔗 https://github.com/nikitasharma1203/logistic-database-management-system
+
+---
+
+### Caffeine Consumption Analysis (ML)
+A statistical and ML-based exploration of student caffeine consumption patterns and trends.  
+🔗 https://github.com/nikitasharma1203/caffeine-consumption-ml-app
+
+---
+
+## A bit more about me
+I’m currently pursuing an **M.Sc. in Data Science** and actively building projects around customer analytics, operational data, and applied machine learning.
+
+I like working at the intersection of **analysis and communication**: figuring out what the data is saying and then explaining it clearly.
+
+---
+
+## Links
+- 📄 Resume: https://drive.google.com/file/d/1HblX37MVfxv-lrN49bGWSEHP3uTc3yv6/view?usp=sharing  
+- 🔗 LinkedIn: https://in.linkedin.com/in/nikita-sharma-8a7548394
+- 🌐 Portfolio: https://codolio.com/profile/Nikita_12 
+
+---
+
+Data first. Storytelling as a bonus.
