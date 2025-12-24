@@ -22,6 +22,13 @@ A reusable Streamlit app that automates data cleaning and exploratory data analy
 🔗 https://github.com/nikitasharma1203/customer_purchase_analysis_and_dashboard
 
 ---
+### Market Entry Strategy Analytics Using Game Theory
+Combines **data analytics**, **product management**, and **game theory** to simulate pricing decisions, demand capture, profitability, and retaliation risk for a new market entrant.
+A data-driven strategy project using NYC Taxi data to analyze demand, pricing, and competitive behavior in a platform-dominated market.
+Streamlit, featuring interactive sliders and tools for strategic what-if analysis.
+🔗 https://github.com/nikitasharma1203/Market_Entry_Strategy-_Using_Game-_Theory
+
+---
 
 ### Employee Productivity Optimization Dashboard
 A dashboard-focused analysis of workforce productivity, task patterns, and performance metrics.  
