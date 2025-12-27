@@ -19,6 +19,7 @@ Focussed on **cleaning messy data, exploring patterns, writing SQL queries, and 
 
 ### Customer Purchase Analysis & Dashboard
 A reusable Streamlit app that automates data cleaning and exploratory data analysis, and helps derive customer behavior insights.  
+
 🔗 https://github.com/nikitasharma1203/customer_purchase_analysis_and_dashboard
 
 ---
@@ -26,29 +27,33 @@ A reusable Streamlit app that automates data cleaning and exploratory data analy
 Combines **data analytics**, **product management**, and **game theory** to simulate pricing decisions, demand capture, profitability, and retaliation risk for a new market entrant.
 A data-driven strategy project using NYC Taxi data to analyze demand, pricing, and competitive behavior in a platform-dominated market.
 Streamlit, featuring interactive sliders and tools for strategic what-if analysis.
+
 🔗 https://github.com/nikitasharma1203/Market_Entry_Strategy-_Using_Game-_Theory
 
 ---
 
 ### Employee Productivity Optimization Dashboard
 A dashboard-focused analysis of workforce productivity, task patterns, and performance metrics.  
+
 🔗 https://github.com/nikitasharma1203/employee_productivity_optimization-dashboard
 
 ---
 
 ### Logistics Database Management System
-An end-to-end logistics database built with PostgreSQL, supported by SQL analytics and a Streamlit interface.  
+An end-to-end logistics database built with PostgreSQL, supported by SQL analytics and a Streamlit interface. 
+
 🔗 https://github.com/nikitasharma1203/logistic-database-management-system
 
 ---
 
 ### Caffeine Consumption Analysis (ML)
-A statistical and ML-based exploration of student caffeine consumption patterns and trends.  
+A statistical and ML-based exploration of student caffeine consumption patterns and trends. 
+
 🔗 https://github.com/nikitasharma1203/caffeine-consumption-ml-app
 
 ---
 
-## A bit more about me
+## Anddd
 I’m currently pursuing an **M.Sc. in Data Science** and actively building projects around customer analytics, operational data, and applied machine learning.
 
 I like working at the intersection of **analysis and communication**: figuring out what the data is saying and then explaining it clearly.
