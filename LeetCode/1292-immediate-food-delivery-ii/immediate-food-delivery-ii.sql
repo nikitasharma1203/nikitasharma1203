@@ -1,6 +1,20 @@
-select  round(sum(case when order_date = customer_pref_delivery_date then 1 else 0 end)/count(*) *100 ,2) as immediate_percentage
-from delivery
-
-where (customer_id, order_date) in (select customer_id, min(order_date) 
-from delivery 
-group by customer_id)
+WITH FirstOrders AS (
+    SELECT 
+        delivery_id,
+        customer_id,
+        order_date,
+        customer_pref_delivery_date,
+        RANK() OVER (
+            PARTITION BY customer_id 
+            ORDER BY order_date ASC
+        ) AS rnk
+    FROM Delivery
+)
+SELECT 
+    ROUND(
+        SUM(CASE WHEN order_date = customer_pref_delivery_date THEN 1 ELSE 0 END) * 100.0 
+        / COUNT(*), 
+        2
+    ) AS immediate_percentage
+FROM FirstOrders
+WHERE rnk = 1;
