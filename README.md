@@ -6,7 +6,7 @@ Focussed on **cleaning messy data, exploring patterns, writing SQL queries, and 
 
 ---
 
-## Working with
+## Story Telling Tooolss: 
 - **Python & R** for data wrangling and EDA 
 - **SQL / PostgreSQL** 
 - **Matplotlib, Power BI** for visualizations  
@@ -54,17 +54,17 @@ A statistical and ML-based exploration of student caffeine consumption patterns 
 ---
 
 ## Anddd
-I’m currently pursuing an **M.Sc. in Data Science** and actively building projects around customer analytics, operational data, and applied machine learning.
+I’m currently pursuing an **M.Sc. in Data Science** and actively building projects around customer analytics, operational data, and lil bit of machine learning.
 
 I like working at the intersection of **analysis and communication**: figuring out what the data is saying and then explaining it clearly.
 
 ---
 
-## Links
-- 📄 Resume: https://drive.google.com/file/d/1HblX37MVfxv-lrN49bGWSEHP3uTc3yv6/view?usp=sharing  
+## Using that Art Degree to Maximum
+- 📄 Resume: https://drive.google.com/file/d/1OocYFVMN-N7Mpwj0uAZzODFnnUacpf9v/view?usp=sharing  
 - 🔗 LinkedIn: https://in.linkedin.com/in/nikita-sharma-8a7548394
 - 🌐 Portfolio: https://codolio.com/profile/Nikita_12 
 
 ---
 
-Data first. Storytelling as a bonus.
+Data first. Storytelling as a bonus. 
