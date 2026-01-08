@@ -1,11 +1,8 @@
 class Solution:
-    def moveZeroes(self, nums: List[int]) -> None:
-        """
-        Do not return anything, modify nums in-place instead.
-        """
-        next_non_zero = 0
+    def moveZeroes(self, nums):
+        slow = 0
 
-        for i in range(len(nums)):
-            if nums[i] != 0:
-                nums[next_non_zero], nums[i] = nums[i] , nums[next_non_zero]
-                next_non_zero +=1
+        for fast in range(len(nums)):
+            if nums[fast] != 0:
+                nums[slow], nums[fast] = nums[fast], nums[slow]
+                slow += 1
