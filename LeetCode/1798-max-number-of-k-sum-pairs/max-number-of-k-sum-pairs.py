@@ -2,15 +2,13 @@ from collections import defaultdict
 
 class Solution:
     def maxOperations(self, nums: List[int], k: int) -> int:
-        freq = defaultdict(int)
-        count = 0
-        
-        for x in nums:
-            target = k - x
-            if freq[target] > 0:
-                freq[target] -= 1
-                count += 1
+        count = {}
+        operations = 0 
+        for num in nums:
+            partner = k - num
+            if count.get(partner,0) > 0:
+                operations +=1
+                count[partner] -=1
             else:
-                freq[x] += 1
-        
-        return count
+                count[num] = count.get(num,0) +1
+        return operations
