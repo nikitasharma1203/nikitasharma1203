@@ -2,12 +2,12 @@
 class Solution:
     def twoSum(self, nums, target):
         seen = {}
-        for i, num in enumerate(nums):
-            complement = target - num
+        for i, j in enumerate(nums):
+            complement = target - j
             if complement in seen:
                 return [seen[complement], i]
             else:
-                seen[num] = i
+                seen[j] = i
 """
 brute force(o(n^2))
 class Solution:
