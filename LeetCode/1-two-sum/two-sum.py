@@ -1,3 +1,4 @@
+"""hashmap(o(n))"""
 class Solution:
     def twoSum(self, nums, target):
         seen = {}
@@ -7,7 +8,9 @@ class Solution:
                 return [seen[complement], i]
             else:
                 seen[num] = i
-"""class Solution:
+"""
+brute force(o(n^2))
+class Solution:
     def twoSum(self, nums, target):
         n = len(nums)
         for i in range(n):
