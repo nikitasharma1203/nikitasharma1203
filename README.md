@@ -2,16 +2,7 @@
 
 **Cleaning messy data, exploring patterns, writing SQL queries, and presenting results** in a way that’s easy to understand and useful.
 
-(Yes, I’m also a writer and a trained Bharatanatyam dancer: not strictly required for SQL joins, but surprisingly helpful for storytelling and discipline.)
-
----
-
-## Story Telling Tooolss: 
-- **Python & R** for data wrangling and EDA 
-- **SQL / PostgreSQL** 
-- **Matplotlib, Power BI, Tableau** for visualizations  
-- **Streamlit** for building interactive dashboards  
-- **Machine learning** when it adds value to the analysis  
+(Also a writer and a trained Bharatanatyam dancer: not strictly required for SQL joins, but surprisingly helpful for storytelling and discipline.)
 
 ---
 
