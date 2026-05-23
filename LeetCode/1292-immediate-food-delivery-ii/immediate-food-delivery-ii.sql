@@ -1,19 +1,16 @@
-WITH FirstOrders AS (
-    SELECT 
-        delivery_id,
-        customer_id,
-        order_date,
-        customer_pref_delivery_date,
-        RANK() OVER (
-            PARTITION BY customer_id 
-            ORDER BY order_date ASC
-        ) AS rnk
-    FROM Delivery
-)
 SELECT 
     ROUND(
-        avg(CASE WHEN order_date = customer_pref_delivery_date THEN 1 ELSE 0 END) * 100.0, 
+        SUM(CASE WHEN order_date = customer_pref_delivery_date THEN 1 ELSE 0 END) * 100.0 
+        / COUNT(*), 
         2
     ) AS immediate_percentage
-FROM FirstOrders
-WHERE rnk = 1;
+FROM (
+    SELECT 
+        customer_id,
+        MIN(order_date) AS first_order_date
+    FROM Delivery
+    GROUP BY customer_id
+) AS f
+JOIN Delivery AS d
+  ON d.customer_id = f.customer_id
+ AND d.order_date = f.first_order_date;
