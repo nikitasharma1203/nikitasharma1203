@@ -1,4 +1,5 @@
 M.Sc. Data Science · DAU Gandhinagar
+
 B.Sc. Statistics · MSU Baroda
 
 Building data systems where the output has a direct consequence —
