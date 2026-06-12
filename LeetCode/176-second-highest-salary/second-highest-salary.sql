@@ -1,3 +1,4 @@
 select max(distinct salary) as SecondHighestSalary
-from employee
-where salary < (select max(distinct salary) from employee)
+from Employee 
+where salary < (select max(distinct salary)
+from Employee)
