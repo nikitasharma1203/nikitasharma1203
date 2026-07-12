@@ -1,4 +1,6 @@
-select distinct author_id as id
+select author_id as id
 from views
-where author_id = viewer_id
-order by id asc
+where author_id = viewer_id 
+group by 1
+having count(viewer_id) >= 1
+order by 1
