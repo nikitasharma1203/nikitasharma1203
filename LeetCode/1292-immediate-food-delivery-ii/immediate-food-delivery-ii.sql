@@ -1,16 +1,3 @@
-WITH first_orders AS (
-    SELECT 
-        customer_id,
-        MIN(order_date) AS first_order_date
-    FROM Delivery
-    GROUP BY customer_id
-)
-SELECT 
-    ROUND(
-        AVG(CASE WHEN d.order_date = d.customer_pref_delivery_date THEN 1.0 ELSE 0 END) * 100, 
-        2
-    ) AS immediate_percentage
-FROM Delivery d
-JOIN first_orders f
-  ON d.customer_id = f.customer_id
- AND d.order_date = f.first_order_date;
+select round(count(case when order_date = customer_pref_delivery_date then 1 end)*100.0/ count(customer_id),  2) as immediate_percentage
+from (select customer_id, min(order_date) as order_date, min(customer_pref_delivery_date) as customer_pref_delivery_date from delivery
+group by customer_id) as wind
