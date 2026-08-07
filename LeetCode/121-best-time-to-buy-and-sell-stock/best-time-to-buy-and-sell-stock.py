@@ -1,9 +1,8 @@
 class Solution:
-    def maxProfit(self, prices):
-        buy = prices[0]
+    def maxProfit(self, prices: List[int]) -> int:
         profit = 0
-        n = len(prices)
-        for i in range(n):
+        buy = prices[0]
+        for i in range(len(prices)):
             if buy > prices[i]:
                 buy = prices[i]
             elif prices[i] - buy > profit:
