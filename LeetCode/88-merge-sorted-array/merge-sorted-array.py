@@ -1,6 +1,7 @@
 class Solution:
-    def merge(self, nums1, m, nums2, n):
-        # Copy nums2 into the empty slots of nums1
+    def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
+        """
+        Do not return anything, modify nums1 in-place instead.
+        """
         nums1[m:] = nums2
-        # Sort the combined array
         nums1.sort()
