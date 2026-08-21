@@ -1,5 +1,5 @@
-select author_id as id
-from views
+# Write your MySQL query statement below
+select distinct author_id as id
+from views 
 where author_id = viewer_id
-group by 1
 order by 1
