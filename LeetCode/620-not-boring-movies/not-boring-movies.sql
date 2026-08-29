@@ -1,4 +1,4 @@
 select id, movie, description, rating
-from cinema
-where id%2 != 0 and description != 'boring'
+from cinema as c
+where description != 'boring' and id%2 !=0
 order by 4 desc
