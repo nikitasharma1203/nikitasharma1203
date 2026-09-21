@@ -6,28 +6,48 @@ Informally trained by books, research papers, and seven years of Bharatanatyam.
 (Both involve a lot of repetition and someone pointing out your form is off.)
 
 ### Things I've built
-
-- [**RetailIQ**](https://github.com/nikitasharma1203/Retail-Demand-Inventory-Management-System-with-Forecasting-Integration): 421K rows of Walmart sales in Postgres, three forecasting models, and one suspiciously good MAPE that I'm still cross-examining
-- [**CartPulse**](https://github.com/nikitasharma1203/ecommerce-funnel-retention-dashboard): 42M eCommerce events, mostly documenting where people quietly leave between "view" and "cart"
-- [**Flight Delay Forecasting**](https://github.com/nikitasharma1203/probabilistic-flight-delay-forecasting): 22M flights, delays that travel with the aircraft, and a humbling reminder that SARIMA can beat a neural net
-- [**Sip Smart + The Nudge Café**](https://github.com/nikitasharma1203/sip-smart-caffeine-ml): titrated campus chai for a thesis, then designed a café around the findings. Yes, really
-- [**ShramikSaathi**](https://github.com/nikitasharma1203/shramik_saathi): a RAG copilot for Indian worker rights (PF, payslips, gratuity) that cites its sources and doesn't make them up
-- [**Sigma & Spark**](https://github.com/nikitasharma120/Sigma-and-Spark) and [**LogiSense**](https://github.com/nikitasharma120/LogiSense): pipelines, SQL, and dashboards for people who'd rather not write SQL
-
+ 
+| Project | What it does | Links |
+|---|---|---|
+| **RetailIQ** | Postgres warehouse over 421K Walmart sales rows with RBAC, triggers and stored procedures. SARIMA, Prophet and XGBoost forecasts, EOQ/reorder logic, and GitHub Actions CI | [Code](https://github.com/nikitasharma1203/Retail-Demand-Inventory-Management-System-with-Forecasting-Integration) · [App](https://retailiqplatform.netlify.app/) · [Tableau](https://public.tableau.com/app/profile/nikita.sharma8845/viz/RetailDashboard_17813393737740/Dashboard1) |
+| **CartPulse** | 42M eCommerce events turned into funnel, cohort-retention and RFM analysis, plus a React + Firebase dashboard where you upload a CSV and everything recomputes | [Code](https://github.com/nikitasharma1203/ecommerce-funnel-retention-dashboard) · [App](https://cartpulseecomm.netlify.app/) |
+| **Flight Delay Forecasting** | 22M flights across 10 US hubs. Delays that travel with the aircraft, prediction intervals with quantile RNNs, and a humbling reminder that SARIMA can beat a neural net | [Code](https://github.com/nikitasharma1203/probabilistic-flight-delay-forecasting) · [App](https://flightdelayforecasting.streamlit.app/) |
+| **ShramikSaathi** | RAG copilot for Indian worker rights (PF, payslips, gratuity, tax) on a LoRA + DPO fine-tuned LLaMA 3.1 8B. Cites its sources and doesn't invent them. Team project | [Code](https://github.com/nikitasharma1203/shramik_saathi) |
+| **Sigma & Spark** | Scrape, clean, store, recommend, serve: an end-to-end pipeline that matches research interests to DA-IICT faculty. FastAPI, Flask, SQLite, Docker | [Code](https://github.com/nikitasharma120/Sigma-and-Spark) · [App](https://deploy-production-c068.up.railway.app/) |
+| **LogiSense** | Logistics analytics on a 7-table Postgres schema, with a no-backend dashboard for people who would rather not write SQL | [Code](https://github.com/nikitasharma120/LogiSense) · [App](https://logiisense.netlify.app/) |
+| **Sip Smart + The Nudge Café** | Titrated campus chai for a statistics thesis, built ML models and a caffeine calculator on the results, then designed a café around the findings. Yes, really | [Code](https://github.com/nikitasharma1203/sip-smart-caffeine-ml) · [App](https://caffeine-consumption-ml-app-cswxdgjaeyhngcyhzq9atk.streamlit.app/) · [Deck](https://docs.google.com/presentation/d/1hVIZ5rNr0uAQx7OlgUEo-5zd3pliDiAL/edit) |
+ 
+**Also in progress:** a three-wave longitudinal study on smartphone use and academic performance, using real device logs instead of self-reported screen time. Results pending, methods are ready.
+ 
+---
+ 
 ### Toolbox
-
-Python, SQL, R. Postgres, Docker, FastAPI, Streamlit.
-React when the dashboard needs a face (built with AI help, and I say so in the READMEs).
-
+ 
+**Languages:** Python, SQL, R
+**Data engineering:** PostgreSQL, SQLite, SQLAlchemy, Docker, GitHub Actions, dbt (fundamentals), Firebase
+**Analytics and ML:** pandas, scikit-learn, statsmodels, XGBoost, PyTorch, time-series forecasting, hypothesis testing
+**LLM stuff:** RAG, FAISS, LoRA and DPO fine-tuning
+**Serving and dashboards:** FastAPI, Flask, Streamlit, React, Tableau, Power BI
+ 
+### Certs and coursework
+ 
+Databricks 14-Day AI Challenge · Kaggle Intro and Advanced SQL · dbt Fundamentals · FinTech Essentials (GIFT City) · Accenture Web Analytics · Tally · MIT OCW Game Theory (self-study)
+ 
 ### House rules
-
-Every repo gets a limitations section. If the result looks too good, I assume I broke something first.
-
+ 
+Every repo gets a limitations section. If a result looks too good, I assume I broke something first.
+ 
+### Off the clock
+ 
+Visharad in Bharatanatyam. Core member of IEEE WIE at DA-IICT. Published in an ISBN-registered anthology, so technically an author.
+ 
+---
+ 
 ### Elsewhere
-
-[![Resume](https://img.shields.io/badge/Resume-PDF-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://drive.google.com/file/d/1s-zZfN-45q_71tyWayDnnLL35r_TKHYn/view?usp=sharing)
+ 
+[![Resume](https://img.shields.io/badge/Resume-PDF-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://drive.google.com/file/d/1s-zZfN-45q_71tyWayDnnLL35r_TKHYn/view?usp=drive_link)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Nikita%20Sharma-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/in/nikita-sharma-8a7548394)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-000000?style=for-the-badge&logo=githubpages&logoColor=white)](https://nikitasharma1203.github.io/)
 [![Codolio](https://img.shields.io/badge/Codolio-Profile-1F2937?style=for-the-badge)](https://codolio.com/profile/Nikita_12)
-
+ 
 *Currently reading. Usually researching. Occasionally dancing.*
