@@ -16,6 +16,7 @@ Informally trained by books, research papers, and seven years of Bharatanatyam.
 | **Sigma & Spark** | Scrape, clean, store, recommend, serve: an end-to-end pipeline that matches research interests to DA-IICT faculty. FastAPI, Flask, SQLite, Docker | [Code](https://github.com/nikitasharma120/Sigma-and-Spark) · [App](https://deploy-production-c068.up.railway.app/) |
 | **LogiSense** | Logistics analytics on a 7-table Postgres schema, with a no-backend dashboard for people who would rather not write SQL | [Code](https://github.com/nikitasharma120/LogiSense) · [App](https://logiisense.netlify.app/) |
 | **Sip Smart + The Nudge Café** | Titrated campus chai for a statistics thesis, built ML models and a caffeine calculator on the results, then designed a café around the findings. Yes, really | [Code](https://github.com/nikitasharma1203/sip-smart-caffeine-ml) · [App](https://caffeine-consumption-ml-app-cswxdgjaeyhngcyhzq9atk.streamlit.app/) · [Deck](https://docs.google.com/presentation/d/1hVIZ5rNr0uAQx7OlgUEo-5zd3pliDiAL/edit) |
+| **A World in Numbers** | Four hypotheses on global inequality tested across 195 countries: CO₂, tax vs. health, the GDP–life expectancy paradox, education vs. fertility. Mostly a lesson in how often the real driver is GDP | [Code](https://github.com/nikitasharma1203/A-World-in-Numbers-Inequality-Health-the-Planet) |
  
 **Also in progress:** a three-wave longitudinal study on smartphone use and academic performance, using real device logs instead of self-reported screen time. Results pending, methods are ready.
  
@@ -45,9 +46,10 @@ Visharad in Bharatanatyam. Core member of IEEE WIE at DA-IICT. Published in an I
  
 ### Elsewhere
  
-[![Resume](https://img.shields.io/badge/Resume-PDF-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://drive.google.com/file/d/1s-zZfN-45q_71tyWayDnnLL35r_TKHYn/view?usp=drive_link)
+[![Resume](https://img.shields.io/badge/Resume-PDF-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://drive.google.com/file/d/1F2mROOObeQN-nzVrY4-8te9tL-qBbMhZ/view?usp=sharing)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Nikita%20Sharma-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/in/nikita-sharma-8a7548394)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-000000?style=for-the-badge&logo=githubpages&logoColor=white)](https://nikitasharma1203.github.io/)
 [![Codolio](https://img.shields.io/badge/Codolio-Profile-1F2937?style=for-the-badge)](https://codolio.com/profile/Nikita_12)
+[![Tableau](https://img.shields.io/badge/Tableau-Public-E97627?style=for-the-badge&logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/nikita.sharma8845/vizzes)
  
 *Currently reading. Usually researching. Occasionally dancing.*
