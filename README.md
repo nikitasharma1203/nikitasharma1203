@@ -1,9 +1,9 @@
 ### M.Sc. Data Science · DA-IICT Gandhinagar
 ### B.Sc. Statistics · MSU Baroda
 
-Formally trained in probability, statistical inference, and time series.
-Informally trained by books, research papers, and seven years of Bharatanatyam.
-(Both involve a lot of repetition and someone pointing out your form is off.)
+Formally trained in probability, statistical inference, and time series.  
+Informally trained by books, research papers, and seven years of Bharatanatyam.  
+(Both involve a lot of repetition and someone pointing out your form is off.)  
 
 ### Things I've built
  
@@ -31,7 +31,7 @@ Informally trained by books, research papers, and seven years of Bharatanatyam.
  
 ### Certs and coursework
  
-Databricks 14-Day AI Challenge · Kaggle Intro and Advanced SQL · dbt Fundamentals · FinTech Essentials (GIFT City) · Accenture Web Analytics · Tally · MIT OCW Game Theory (self-study)
+Databricks 14-Day AI Challenge · Kaggle Intro and Advanced SQL · dbt Fundamentals · FinTech Essentials (GIFT City) · Accenture Web Analytics · Tally · MIT OCW Game Theory 
  
 ### House rules
  
