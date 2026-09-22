@@ -24,11 +24,11 @@ Informally trained by books, research papers, and seven years of Bharatanatyam.
  
 ### Toolbox
  
-**Languages:** Python, SQL, R
-**Data engineering:** PostgreSQL, SQLite, SQLAlchemy, Docker, GitHub Actions, dbt (fundamentals), Firebase
-**Analytics and ML:** pandas, scikit-learn, statsmodels, XGBoost, PyTorch, time-series forecasting, hypothesis testing
-**LLM stuff:** RAG, FAISS, LoRA and DPO fine-tuning
-**Serving and dashboards:** FastAPI, Flask, Streamlit, React, Tableau, Power BI
+**Languages:** Python, SQL, R  
+**Data engineering:** PostgreSQL, SQLite, SQLAlchemy, Docker, GitHub Actions, dbt (fundamentals), Firebase  
+**Analytics and ML:** pandas, scikit-learn, statsmodels, XGBoost, PyTorch, time-series forecasting, hypothesis testing  
+**LLM stuff:** RAG, FAISS, LoRA and DPO fine-tuning  
+**Serving and dashboards:** FastAPI, Flask, Streamlit, React, Tableau, Power BI  
  
 ### Certs and coursework
  
